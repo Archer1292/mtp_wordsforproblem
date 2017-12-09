@@ -25,6 +25,7 @@ task codeCoverageReport(type: JacocoReport) {
     subprojects.each {
         sourceSets it.sourceSets.main
     }
+    
 
     reports {
         xml.enabled true
